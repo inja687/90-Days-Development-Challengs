@@ -1,0 +1,67 @@
+
+p {
+    color: brown;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    border: solid;
+    width: 50%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+
+h4 {
+    text-align: center;
+    color: teal;
+    font-size: 22px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+    width: 50%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

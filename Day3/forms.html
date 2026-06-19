@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Practice</title>
+    <style>
+        /* Basic styling for better readability */
+        .form-group { margin-bottom: 15px; }
+        label { display: inline-block; width: 150px; }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <form action="/Day3/index.html">
+        <div class="form-group">
+            <label for="name">Username:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Time:</label>
+            <input type="time" name="time" id="time">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <div class="form-group">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div class="form-group">
+            <label for="file">File:</label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="country">Choose your country:</label>
+            <select name="country" id="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="100">
+        </div>
+
+        <div class="form-group">
+            <label for="url">Website:</label>
+            <input type="url" name="url" id="url" placeholder="Enter your website">
+        </div>
+
+        <div class="form-group">
+            <label for="feedback">Feedback:</label>
+            <input type="search" name="feedback" id="feedback" placeholder="Enter your feedback">
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <h3>Quick Search Forms</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="Search YouTube">
+        <button type="submit">Search</button>
+    </form>
+
+    <hr>
+
+    <h3>Registration Form</h3>
+    <form action="/Day3/index.html">
+        <div class="form-group">
+            <label for="reg-username">Username:</label>
+            <input type="text" name="username" id="reg-username" required>
+        </div>
+        <div class="form-group">
+            <label for="reg-email">Email:</label>
+            <input type="email" name="email" id="reg-email" required>
+        </div>
+        <div class="form-group">
+            <label for="reg-password">Password:</label>
+            <input type="password" name="password" id="reg-password" required>
+        </div>
+        <div class="form-group">
+            <label for="reg-confirm">Confirm Password:</label>
+            <input type="password" name="confirm_password" id="reg-confirm" required>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>

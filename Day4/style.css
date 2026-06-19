@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    color: blue;
+    border: solid;
+    width: 50%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    text-decoration: overline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 1px;
+    text-decoration-style: dashed;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-size: 24px;
+    font-family: cursive;
+}
