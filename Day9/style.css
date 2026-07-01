@@ -1,0 +1,260 @@
+.container {
+   width: 600px;
+   height: 400px;
+   background: rgb(80, 189, 189);
+   display: grid;
+   /* grid-template-rows: repeat(10, 1fr);
+   grid-template-columns: 1fr 1fr 1fr; */
+
+   /* row-gap: 10px;
+   column-gap: 10px; */
+
+   
+}
+
+.item {
+   width: 100px;
+   height: 40px;
+   background: greenyellow;
+   margin: 10px;
+   border: 2px solid black;
+   text-align: center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+    background:#222;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:70px 8%;
+}
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+button{
+    padding:15px 35px;
+    background:#0077ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#0056cc;
+}
+
+.right{
+    width:45%;
+}
+
+.right img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* Responsive */
+
+/* ===========================
+   Mobile First Breakpoints
+=========================== */
+
+/* Extra Small Mobile */
+@media (max-width:320px){
+
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+}
+
+/* Tablet */
+@media (min-width:577px) and (max-width:768px){
+
+}
+
+/* Small Laptop */
+@media (min-width:769px) and (max-width:992px){
+
+}
+
+/* Laptop */
+@media (min-width:993px) and (max-width:1200px){
+
+}
+
+/* Large Desktop */
+@media (min-width:1201px){
+
+}
+
+
+/* ===========================
+   Orientation
+=========================== */
+
+@media (orientation:portrait){
+
+}
+
+@media (orientation:landscape){
+
+}
+
+
+/* ===========================
+   Height
+=========================== */
+
+@media (min-height:700px){
+
+}
+
+@media (max-height:600px){
+
+}
+
+
+/* ===========================
+   Screen
+=========================== */
+
+@media screen and (max-width:768px){
+
+}
+
+
+/* ===========================
+   Only
+=========================== */
+
+@media only screen and (max-width:768px){
+
+}
+
+
+/* ===========================
+   Print
+=========================== */
+
+@media print{
+
+}
+
+
+/* ===========================
+   Hover
+=========================== */
+
+@media (hover:hover){
+
+}
+
+
+/* ===========================
+   Pointer
+=========================== */
+
+@media (pointer:fine){
+
+}
+
+@media (pointer:coarse){
+
+}
+
+
+/* ===========================
+   Dark Mode
+=========================== */
+
+@media (prefers-color-scheme:dark){
+
+}
+
+
+/* ===========================
+   Light Mode
+=========================== */
+
+@media (prefers-color-scheme:light){
+
+}
+
+
+/* ===========================
+   Reduced Motion
+=========================== */
+
+@media (prefers-reduced-motion:reduce){
+
+}
+
+
+/* ===========================
+   High Contrast
+=========================== */
+
+@media (prefers-contrast:more){
+
+}
+
+
+/* ===========================
+   Aspect Ratio
+=========================== */
+
+@media (min-aspect-ratio:16/9){
+
+}
+
+@media (max-aspect-ratio:1/1){
+
+}
+
+
+/* ===========================
+   Resolution
+=========================== */
+
+@media (min-resolution:2dppx){
+
+}
